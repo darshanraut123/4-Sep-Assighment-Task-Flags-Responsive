@@ -1,0 +1,104 @@
+body{
+    background-color: #eceaea ;
+    font-family: 'Roboto', sans-serif;}
+    .full{
+        background-color: #ffffff;
+
+    }
+.navbar{
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 600;
+}
+.utilBar{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.myDropdown{
+    font-size: 16px;
+    font-weight: 400;
+    width: 40%;
+    text-align: center;
+    border:1px solid #ced4da;
+    opacity: .9;
+
+}
+
+input[name='search'] {
+    height: 50px;
+    width: 80%;
+    background-image: url(search.png);
+    background-size: 25px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.mainContent{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin-top: 20px;
+}
+.banner{
+    margin: 5px;
+    padding: 5px;
+    height: 350px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+.banner:hover{
+    opacity: 1;
+}
+
+.myImage{
+    height: 50%;
+    width:fit-content;
+}
+
+.myArea{
+    height: 175px;
+    background-image: none;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px;
+    margin: -5px 10px 0px 10px;
+}
+
+.germany{    background-image: url(germany.png);
+}
+.India{    background-image: url(India.png);
+}
+.brazil{    background-image: url(brazil.png);
+}
+.iceland{    background-image: url(Iceland.png);
+}
+.usa{    background-image: url(usa.png);
+}
+.algeria{ background-image: url(algeria.PNG);}
+.aland{ background-image: url(aland.PNG);}
+.albania{ background-image: url(albania.PNG);}
+.afganistan{ background-image: url(afganistan.PNG);}
+
+.myContent{
+    height: auto;
+    width: fit-content;
+    margin:15px 0px 0px 40px;
+}
+p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+span{font-weight: 100;}
+
